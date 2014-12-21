@@ -2,7 +2,7 @@
   "name": "relax-log",
   "version": "0.0.0",
   "description": "relax log is a node logger which saves events in a couchdb",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "example": "examples",
     "test": "test"
