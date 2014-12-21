@@ -1,0 +1,15 @@
+{
+  "name": "relax-log",
+  "version": "0.0.0",
+  "description": "relax log is a node logger which saves events in a couchdb",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
