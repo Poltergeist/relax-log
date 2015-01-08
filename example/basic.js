@@ -10,3 +10,30 @@ relaxLog.error('Miserable Failure occured again');
 setTimeout(function() {
   relaxLog.info('Email send to Admin');
 }, 500);
+relaxLog.info(
+  {
+    message: 'Starting to Log',
+    custom: true
+  }
+);
+
+relaxLog.error(
+  {
+    message: 'Miserable Failure occured',
+    custom: true
+  }
+);
+
+relaxLog.info(
+  {
+    message: 'Restarting task',
+    custom: true
+  }
+);
+
+relaxLog.error(
+  {
+    message: 'Miserable Failure occured again',
+    custom: true
+  }
+);
