@@ -7,11 +7,15 @@
     "example": "examples",
     "test": "test"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/poltergeist/relax-log.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "nano": "^6.0.2"
   }
